@@ -1,10 +1,10 @@
-import { TransactionAppPage } from './app.po';
+import { OpenHouseAppPage } from './app.po';
 
-describe('transaction-app App', () => {
-  let page: TransactionAppPage;
+describe('open-house App', () => {
+  let page: OpenHouseAppPage;
 
   beforeEach(() => {
-    page = new TransactionAppPage();
+    page = new OpenHouseAppPage();
   });
 
   it('should display welcome message', () => {
