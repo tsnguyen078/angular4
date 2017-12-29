@@ -1,4 +1,5 @@
-<p-dataTable [value]="transactions" [rows]="5" [paginator]="true" [lazy]="true" [totalRecords]="totalRecords" (onLazyLoad)="loadTransactionsLazy($event)" #dt>
+<p-dataTable [value]="transactions" [rows]="5" [paginator]="true" [lazy]="true" 
+[totalRecords]="totalRecords" (onLazyLoad)="loadTransactionsLazy($event)" #dt>
   <p-header>List of Cars</p-header>
   <p-column field="transactionDate" header="Date"></p-column>
   <p-column field="amount" header="Amount" [filter]="true" filterMatchMode="equals"></p-column>
